@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.login-page-2 {
+    height: 100dvh;
+    width: 100%;
+    background-image: url(/lms_images/login_bg2.png);
+    background-size: cover;
+    
+}
+
+.outer-container {
+    height: 100dvh;
+    width: 350px;
+    padding-left: 5%;
+}
+
+
+.logo {
+    width: 33.23%;
+    height: 13.76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.logo1 {
+    width: 62.96%;
+    height: 62.41%;
+}
+.logo2 {
+    width: 100%;
+    height: 27.65%;
+}
+
+.login {
+    width: 100%;
+    height: 54.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+ .input-field{
+    height:13.37%;
+    border-radius: 5px;
+    background-color: #DDEBFA;
+    border: none;
+    padding-left: 10%;
+ }
+ h3 {
+    width: 44.6%;
+    height: 4%;
+    font-size: 1.5rem;
+ }  
+
+ button {
+    width: 53.69%;
+    height: 14.12%;
+    background-color: #0C99EB;
+    border-radius: 10px;
+    border: none;
+    color: #DDEBFA;
+ }
+
+ .social-login {
+    width: 57%;
+    height: 13.18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ededed;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    margin-top: 10%;
+ }
+
+ a {
+    text-decoration: none;
+    color: #161A1D;
+ }
+
+ .g-logo {
+    width: 10%;
+    height: 30%;
+ }
+
+ .forgot {
+     width: 60%;
+     height: 4.1%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-top: 5%;
+ }
+
+ .f-pwd-logo {
+    height: 70%;
+    width: 13%;
+ }
+
+
+
+ @media screen and (max-width:320px) {
+    .outer-container {
+            height: 100dvh;
+            width: 350px;
+            padding-left: 5%;
+        }
+ }
+
+ @media screen and (max-width:375px) {
+    .outer-container {
+            height: 100dvh;
+            width: 350px;
+            padding-left: 5%;
+        }
+ }
+
+ @media screen and (max-width:425px) {
+    .outer-container {
+            height: 100dvh;
+            width: 350px;
+            padding-left: 5%;
+        }
+ }
+
+/*
+@media screen and (min-width:310px) {
+    .outer-container {
+            height: 100dvh;
+            width: 100%;
+            padding-left: 5%; 
+            padding: 12px;
+        }
+}
+@media screen and (min-width:710px) {
+    .outer-container {
+        height: 100dvh;
+        width: 40%;
+        padding-left: 5%;
+        padding: 12px;
+    }
+}
+@media screen and (min-width:1220px) {
+    .outer-container {
+        height: 100dvh;
+        width: 20%;
+        padding-left: 5%;
+        padding: 12px;
+    }  
+} 
+*/
